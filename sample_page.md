@@ -1,6 +1,8 @@
 ## This can be your internal website page / project page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** Stock-Market-Analysis project was developed to perform data analysis on the historical data of the publicly listed companies on the data provided by yahoo finance.
+Both fundamental and technical analysis was done to understand the trends in the market. Thorough data analysis is done to discover useful information.
+For my case study, I chose big tech companies that are publicly listed: google, ford, apple, Microsoft.
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
