@@ -8,16 +8,28 @@ For my case study, I chose big tech companies that are publicly listed: google, 
 
 <img src="images/sp_pic_2.png?raw=true"/>
 
-
 ### 2. Assess assumptions on which statistical inference will be based
 
-
 <img src="images/sp_pic_3.png?raw=true"/>
-
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
 <img src="images/sp_pic_4.png?raw=true"/>
+
+### 4. Support the selection of appropriate statistical tools and techniques
+
+<img src="images/sp_pic_5.png?raw=true"/>
+
+### 5. Support the selection of appropriate statistical tools and techniques
+
+<img src="images/sp_pic_6.png?raw=true"/>
+
+### 6. Support the selection of appropriate statistical tools and techniques
+
+<img src="images/sp_pic_7.png?raw=true"/>
+
+
+
 
 
 ### 4. Provide a basis for further data collection through surveys or experiments
