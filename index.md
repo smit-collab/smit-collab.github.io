@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Stock-Market-Analysis](/sample_page)
 <img src="images/sp_pic_1.png?raw=true"/>
 
 ---
