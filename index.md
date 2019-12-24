@@ -8,11 +8,11 @@
 <img src="images/sp_pic_1.png?raw=true"/>
 
 ---
-[Data analysis of Foreign direct investment](/sample_page1)
+[Data analysis of Foreign direct investment](/sample_page_1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Project 3 Title](/sample_page_2)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
