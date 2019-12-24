@@ -9,7 +9,7 @@
 
 ---
 [Data analysis of Foreign direct investment](/sample_page_1)
-<img src="images/fdi_pic3"/>
+<img src="images/fdi_pic3.png"/>
 
 ---
 [Project 3 Title](/sample_page_2)
