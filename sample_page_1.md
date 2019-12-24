@@ -1,8 +1,8 @@
 ## Detail Information about the Project
 
-**Project description:** Stock-Market-Analysis project was developed to perform data analysis on the historical data of the publicly listed companies on the data provided by yahoo finance.
-Both fundamental and technical analysis was done to understand the trends in the market. Thorough data analysis is done to discover useful information.
-For my case study, I chose big tech companies that are publicly listed: google, ford, apple, Microsoft.
+**Project description:** Foreign direct investment in a business by an investor from another country for which the foreign investor has control over the company purchased. in India is a major monetary source for economic development in India. Foreign companies invest directly in many sectors to take benefits of cheaper wages and changing business environment of India.
+
+The dataset contains Foreign direct investment in India for the last 17 years from 2000-01 to 2016-17. It contains sector and Financial year-wise data of FDI in India. I have made a total of two dashboards. The main reason to analyze the data was to observe how the FDI has changed over many years. We can easily observe the change in FDI by observing the step chart that FDI has changed a lot after Narendra Modi's arrival.
 
 ### 1. Maximum FDI.
 
