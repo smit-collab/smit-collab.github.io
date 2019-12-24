@@ -8,7 +8,7 @@
 <img src="images/sp_pic_1.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Data analysis of Foreign direct investment](/sample_page1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
