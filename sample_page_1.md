@@ -34,4 +34,4 @@ The dataset contains Foreign direct investment in India for the last 17 years fr
 
 
 
-For more details see [Stock Market Analysis](https://github.com/smit-collab/Tableau-Visualizations).
+For more details see [Foreign direct investment](https://github.com/smit-collab/Tableau-Visualizations).
