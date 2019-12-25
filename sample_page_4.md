@@ -24,4 +24,4 @@
 
 
 
-For more details see [Memory Game](https://github.com/smit-collab/Memory-Game).
+For more details [Check out the link](https://github.com/smit-collab/Memory-Game).
