@@ -29,6 +29,9 @@
 
 
 
+You can view final version of Global superstore perfomance dashboards by clicking on link below:<br/>
+[Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance)<br/>
+[Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)
 
 For more details see [global superstore perfomance Analysis](https://github.com/smit-collab/Tableau-Visualizations).
 
