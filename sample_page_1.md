@@ -32,6 +32,8 @@ The dataset contains Foreign direct investment in India for the last 17 years fr
 
 <img src="images/fdi_pic7.png?raw=true"/>
 
-
+You can view final version of Foreign direct investment dashboards by clicking on link below:<br/>
+[Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1)<br/>
+[Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)
 
 For more details see [Foreign direct investment](https://github.com/smit-collab/Tableau-Visualizations).
