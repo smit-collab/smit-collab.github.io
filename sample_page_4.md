@@ -20,6 +20,8 @@
 
 
 
+![](images/game.gif)
 
 
-For more details see [Stock Market Analysis](https://github.com/smit-collab/Stock-Market-Analysis).
+
+For more details see [Memory Game](https://github.com/smit-collab/Memory-Game).
