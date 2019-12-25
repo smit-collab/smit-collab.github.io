@@ -20,6 +20,8 @@
 
 
 ### Side projects
+[Memory game](/sample_page)
+
 
 
 ---
