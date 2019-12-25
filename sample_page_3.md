@@ -5,6 +5,7 @@
 
 ### 1. Countries making Profit 
 
+<img src="images/gsp_pic_1e.png?raw=true"/>
 
 ### 2. Profits By year 
 
