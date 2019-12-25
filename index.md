@@ -5,7 +5,7 @@
 ### Data Science projects
 
 [Stock Market Analysis](/sample_page)
-<img src="images/sp_pic_1.png?raw=true width="400" height="790""/>
+<img src="images/sp_pic_1.png?raw=true"  width="600" height="280"/>
 
 ---
 [Data analysis of Foreign direct investment](/sample_page_1)
