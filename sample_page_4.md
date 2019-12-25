@@ -1,32 +1,24 @@
 ## Detail Information about the Project
 
-**Project description:** Stock-Market-Analysis project was developed to perform data analysis on the historical data of the publicly listed companies on the data provided by yahoo finance.
-Both fundamental and technical analysis was done to understand the trends in the market. Thorough data analysis is done to discover useful information.
-For my case study, I chose big tech companies that are publicly listed: google, ford, apple, Microsoft.
+**Project description:** 
+  
+ ### Introduction: 
+ 
+ Main objective is to match all cards in less steps and to complete the game in less time. This was a fun Project that I devloped During Udacity Front-End Web Developer Nanodegree. 
+  
+ ### Steps to Play
+    •The goal is to match all the cards together and win the game.
+    
+    •Open the index.html . Then the game can be started by clicking on two cards, if they match, then look for another pair of cards or else try again as cards are arranged randomly on the grid with the symbol face down.
+    
+    •The star rating depends on the number of moves. The game ends once all cards have been correctly matched. The player could restart the game at any time by clicking on the restart icon.
+    
+    •Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. If there is an issue with a single card randomly paired, just hit the restart button on the top right corner of the game.
+    
+    •On the Alert window, you can hit 'Go Again!' to play the game again, keep playing till you get the best score.
+    The project was developed using HTML, CSS, JS.
 
-### 1. Open price of all the stocks
 
-<img src="images/sp_pic_2.png?raw=true"/>
-
-### 2. Volume of stocks traded on each day
-
-<img src="images/sp_pic_3.png?raw=true"/>
-
-### 3. Moving average of all three stocks.
-
-<img src="images/sp_pic_4.png?raw=true"/>
-
-### 4. Using scatter plot to check the relationships between the stocks. 
-
-<img src="images/sp_pic_5.png?raw=true"/>
-
-### 5. Calculating the Cumulative returns.
-
-<img src="images/sp_pic_6.png?raw=true"/>
-
-### 6. Comparing the returns of three stocks together.
-
-<img src="images/sp_pic_7.png?raw=true"/>
 
 
 
