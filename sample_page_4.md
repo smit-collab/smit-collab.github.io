@@ -21,5 +21,6 @@ The project was developed using HTML, CSS, JS.
 ![](images/game.gif)
 
 
+Below is the link for codepen.
 
-For more details [Check out the link](https://github.com/smit-collab/Memory-Game).
+[Click to play the game](https://codepen.io/smit10/project/full/Xbqmpa).
