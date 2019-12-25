@@ -12,7 +12,7 @@
 
 ---
 [Data analysis of Global Superstore Performance](/sample_page_3)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/gsp_pic_1e.png?raw=true"/>
 
 ---
 ---
