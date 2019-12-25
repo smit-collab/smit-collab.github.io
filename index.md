@@ -4,7 +4,7 @@
 
 ### Data Science projects
 
-[Stock Market Analysis](/sample_page)
+[Stock Market Analysis](/sample_page){:height="90%" width="90%"}
 <img src="images/sp_pic_1.png?raw=true"/>
 
 ---
