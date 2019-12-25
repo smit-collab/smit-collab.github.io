@@ -20,7 +20,7 @@
 
 
 ### Side projects
-[Memory game](/sample_page_4)
+[Card matching game](/sample_page_4)
 ![](images/game.gif)
 
 
