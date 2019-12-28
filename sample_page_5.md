@@ -1,8 +1,9 @@
 ## Detail Information about the Project
 
-**Project description:** Stock-Market-Analysis project was developed to perform data analysis on the historical data of the publicly listed companies on the data provided by yahoo finance.
-Both fundamental and technical analysis was done to understand the trends in the market. Thorough data analysis is done to discover useful information.
-For my case study, I chose big tech companies that are publicly listed: google, ford, apple, Microsoft.
+**Project description:** <br/>
+Credit card fraud is when someone uses your credit card or credit account to make a purchase you didn't authorize. Credit card fraud is a fraud committed using a payment card, such as a credit card as a fraudulent source of funds in a transaction. Mainly I have used two important algorithms to find the accuracy of the model:
+a.) local outlier factor to calculate anomaly scores 
+b.) isolation algorithms.
 
 ### 1. Transaction class distribution
 
@@ -19,4 +20,4 @@ For my case study, I chose big tech companies that are publicly listed: google, 
 
 
 
-For more details see [Stock Market Analysis](https://github.com/smit-collab/Credit-Card-Fraud-Detection).
+For more details see [Credit-Card-Fraud-Detection](https://github.com/smit-collab/Credit-Card-Fraud-Detection).
