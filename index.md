@@ -2,7 +2,7 @@
 
 ---
 
-### Data Science projects
+### Data Analysis Projects
 
 [Stock Market Analysis](/sample_page)
 <img src="images/sp_pic_1.png?raw=true"/>
@@ -16,7 +16,7 @@
 <img src="images/gsp_pic_1e.png?raw=true" width="700" height="300"/>
 
 ---
-
+### Machine Learning Projects
 [Credit-Card-Fraud-Detection](/sample_page_5)
 <img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>
 
