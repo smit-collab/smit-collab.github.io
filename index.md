@@ -8,11 +8,11 @@
 <img src="images/sp_pic_1.png?raw=true"/>
 
 ---
-[Data analysis of Foreign direct investment](/sample_page_1)
+[Foreign direct investment](/sample_page_1)
 <img src="images/fdi_pic3.png" width="700" height="300"/>
 
 ---
-[Data analysis of Global Superstore Performance](/sample_page_3)
+[Global Superstore Performance](/sample_page_3)
 <img src="images/gsp_pic_1e.png?raw=true" width="700" height="300"/>
 
 ---
