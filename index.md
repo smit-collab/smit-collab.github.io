@@ -9,19 +9,19 @@
 
 ---
 [Foreign direct investment](/sample_page_1)
-<img src="images/fdi_pic3.png" width="700" height="300"/>
+[<img src="images/fdi_pic3.png" width="700" height="300"/>](/sample_page_1)
 
 ---
 [Global Superstore Performance](/sample_page_3)
-<img src="images/gsp_pic_1e.png?raw=true" width="700" height="300"/>
+[<img src="images/gsp_pic_1e.png?raw=true" width="700" height="300"/>](/sample_page_3)
 
 ---
 ### Machine Learning Projects
 [Credit-Card-Fraud-Detection](/sample_page_5)
-<img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>
+[<img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>](/sample_page_5)
 
 [Uber data Analysis](/sample_page_6)
-<img src="images/ut_pic1.png?raw=true"/>
+[<img src="images/ut_pic1.png?raw=true"/>](/sample_page_6)
 
 ---
 
