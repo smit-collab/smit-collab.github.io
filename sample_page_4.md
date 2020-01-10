@@ -1,9 +1,7 @@
 ## Detail Information about the Project
 
-**Project description:** 
-  
- ### Introduction: 
- 
+### Project description: 
+
  Main objective is to match all cards in less steps and to complete the game in less time. This was a fun Project that I devloped During Udacity Front-End Web Developer Nanodegree. 
 
 
