@@ -5,7 +5,7 @@
 ### Data Analysis Projects
 
 [Stock Market Analysis](/sample_page)
-<img src="images/sp_pic_1.png?raw=true"/>
+[<img src="images/sp_pic_1.png?raw=true"/>](/sample_page)
 
 ---
 [Foreign direct investment](/sample_page_1)
