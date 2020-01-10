@@ -21,7 +21,7 @@
 <img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>
 
 [Uber data Analysis](/sample_page_6)
-<img src="images/ut_pic1.png?raw=true" width="700" height="300"/>
+<img src="images/ut_pic1.png?raw=true"/>
 
 ---
 
