@@ -3,7 +3,7 @@ In this project, I have analyzed the Uber Pickups in New York City. The dataset 
 
 ### Images
 
-### 1. Mainly there are 4 columns in the data and 829,275 observations. Only a few observations are shown here.
+### 1. There are 4 columns in the data and 829,275 observations. Only a few observations are shown here.
 ![](images/ut_pic2.png)<br/>
 
 
