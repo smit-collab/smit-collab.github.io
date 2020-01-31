@@ -4,6 +4,11 @@
 
 The dataset contains Foreign direct investment in India for the last 17 years from 2000-01 to 2016-17. It contains sector and Financial year-wise data of FDI in India. I have made a total of two dashboards. The main reason to analyze the data was to observe how the FDI has changed over many years. We can easily observe the change in FDI by observing the step chart that FDI has changed a lot after Narendra Modi's arrival.
 
+You can view final version of Foreign direct investment dashboards by clicking on link below:<br/>
+[Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1)<br/>
+[Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)
+
+
 ### 1. Maximum FDI.
 
 <img src="images/fdi_pic1.png?raw=true"/>
@@ -31,9 +36,5 @@ The dataset contains Foreign direct investment in India for the last 17 years fr
 ### 7. Forecast for next year.
 
 <img src="images/fdi_pic7.png?raw=true"/>
-
-You can view final version of Foreign direct investment dashboards by clicking on link below:<br/>
-[Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1)<br/>
-[Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)
 
 For more details see [Foreign direct investment](https://github.com/smit-collab/Tableau-Visualizations).
