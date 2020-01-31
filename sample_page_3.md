@@ -2,6 +2,11 @@
 
 **Project description:** The main reason to analyze the data of global superstore perfomance is to find out if the product made loss or profit in the market.If  it was a profit/loss then in which sector and what was the main reason behind it. Global Super Store is a data set which has a lot of values. Its a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets. 
 
+You can view final version of Global superstore perfomance dashboards by clicking on link below:<br/>
+[Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance)<br/>
+[Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)
+
+
 
 ### 1. Countries making Profit 
 
@@ -27,11 +32,6 @@
 
 <img src="images/gsp_pic_6.png?raw=true"/>
 
-
-
-You can view final version of Global superstore perfomance dashboards by clicking on link below:<br/>
-[Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance)<br/>
-[Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)
 
 For more details see [global superstore perfomance Analysis](https://github.com/smit-collab/Tableau-Visualizations).
 
