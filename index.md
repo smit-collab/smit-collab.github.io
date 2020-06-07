@@ -17,14 +17,15 @@
 
 ---
 ### Machine Learning Projects
+[Board Game Review Prediction](/sample_page_7)
+[<img src="images/bgr_pic_1.png?raw=true"/>](/sample_page_7)
+
 [Credit-Card-Fraud-Detection](/sample_page_5)
 [<img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>](/sample_page_5)
 
 [Uber data Analysis](/sample_page_6)
 [<img src="images/ut_pic1.png?raw=true"/>](/sample_page_6)
 
-[Board Game Review Prediction](/sample_page_7)
-[<img src="images/ut_pic1.png?raw=true"/>](/sample_page_7)
 
 
 
