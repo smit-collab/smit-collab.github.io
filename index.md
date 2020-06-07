@@ -23,6 +23,11 @@
 [Uber data Analysis](/sample_page_6)
 [<img src="images/ut_pic1.png?raw=true"/>](/sample_page_6)
 
+[Board Game Review Prediction](/sample_page_7)
+[<img src="images/ut_pic1.png?raw=true"/>](/sample_page_7)
+
+
+
 ---
 
 
