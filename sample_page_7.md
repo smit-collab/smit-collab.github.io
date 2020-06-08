@@ -14,7 +14,7 @@ In this project, I have I have used two models Linear Regression and Random Fore
 
 From Below chart we can observe some basic things like id has some correlation with average rating. Also average rating and average weight are also correlated. Also min age is correlated with average rating.
 
-Some columns like base type,name,id as they dont give useful info about the game. but they are correlated so it will somewhat affect the results of the algorithm.
+Some columns like base type,name,id don't give useful information about the game but are correlated so it will somewhat affect the results of the algorithm.
 
 ![](images/bgr_pic_3.png)<br/>
 
