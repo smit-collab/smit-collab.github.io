@@ -26,6 +26,8 @@
 [Uber data Analysis](/sample_page_6)
 [<img src="images/ut_pic1.png?raw=true"/>](/sample_page_6)
 
+[Image-Compression-using-K-Means](/sample_page_8)
+[<img src="images/IC_3.png?raw=true"/>](/sample_page_6)
 
 
 
