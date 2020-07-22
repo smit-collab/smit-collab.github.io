@@ -10,7 +10,7 @@
 
 
 
-[Stock Market Analysis](/sample_page_9)
+[Stock Market Analysis](/sample_page)
 [<img src="images/sp_pic_1.png?raw=true"/>](/sample_page)
 
 ---
