@@ -4,7 +4,13 @@
 
 ### Data Analysis Projects
 
-[Stock Market Analysis](/sample_page)
+
+[Sentiment analysis of tweets about US Airlines](/sample_page_9)
+![](images/se_streamlit-app.gif)
+
+
+
+[Stock Market Analysis](/sample_page_9)
 [<img src="images/sp_pic_1.png?raw=true"/>](/sample_page)
 
 ---
