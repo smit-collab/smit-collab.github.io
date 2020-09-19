@@ -10,17 +10,20 @@ Scroll to the bottom to view data analytics, machine learning, and side projects
 ![](images/se_streamlit-app.gif)
 [View more](/sample_page_9)
 
-
+---
 [Stock Market Analysis](/sample_page)
 [<img src="images/sp_pic_1.png?raw=true"/>](/sample_page)
+[View more](/sample_page)
 
 ---
 [Foreign direct investment](/sample_page_1)
 [<img src="images/fdi_pic3.png" width="700" height="300"/>](/sample_page_1)
+[View more](/sample_page_1)
 
 ---
 [Global Superstore Performance](/sample_page_3)
 [<img src="images/gsp_pic_1e.png?raw=true" width="700" height="300"/>](/sample_page_3)
+[View more](/sample_page_3)
 
 ---
 ### Machine Learning Projects
