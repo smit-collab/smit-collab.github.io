@@ -1,13 +1,14 @@
 ## Portfolio
 
 ---
+Scroll to the bottom to view data analytics, machine learning, and side projects.
 
 ### Data Analysis Projects
 
 
 [Sentiment analysis of tweets about US Airlines](/sample_page_9)
 ![](images/se_streamlit-app.gif)
-
+[View more](/sample_page_9)
 
 
 [Stock Market Analysis](/sample_page)
