@@ -29,25 +29,30 @@ Scroll to the bottom to view data analytics, machine learning, and side projects
 ### Machine Learning Projects
 [Board Game Review Prediction](/sample_page_7)
 [<img src="images/bgr_pic_1.png?raw=true"/>](/sample_page_7)
+[View more](/sample_page_7)
 
+---
 [Credit-Card-Fraud-Detection](/sample_page_5)
 [<img src="images/cfd_pic_1.png?raw=true" width="700" height="300"/>](/sample_page_5)
+[View more](/sample_page_5)
 
+---
 [Uber data Analysis](/sample_page_6)
 [<img src="images/ut_pic1.png?raw=true"/>](/sample_page_6)
+[View more](/sample_page_6)
 
+---
 [Image-Compression-using-K-Means](/sample_page_8)
 [<img src="images/IC_3.png?raw=true"/>](/sample_page_8)
-
+[View more](/sample_page_8)
 
 
 ---
 
-
 ### Side projects
 [Card matching game](/sample_page_4)
 ![](images/game.gif)
-
+[View more](/sample_page_4)
 
 
 ---
