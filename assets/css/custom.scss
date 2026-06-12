@@ -1,38 +1,121 @@
 ---
 ---
 
-/* Wide layout on desktop */
+/* Typography — readability improvements over Minimal theme defaults */
+body {
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+section p,
+header p {
+  color: #4a4a4a;
+}
+
+header {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.sidebar-links a {
+  font-weight: 600;
+}
+
+/* Base — override theme fixed/float layout */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+header {
+  float: none;
+  position: static;
+  width: auto;
+}
+
+section {
+  float: none;
+  width: auto;
+}
+
+footer {
+  bottom: auto;
+  float: none;
+  position: static;
+  width: auto;
+}
+
+/* Desktop — sidebar + content aligned on same row */
 @media print, screen and (min-width: 961px) {
   body {
-    padding: 24px 32px;
+    padding: 24px 28px;
   }
 
   .wrapper {
-    width: 96%;
-    max-width: 1500px;
+    align-items: flex-start;
+    column-gap: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
   }
 
   header {
-    width: 260px;
+    flex: 0 0 200px;
+    padding-top: 0;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin: 0 0 1rem;
+  }
+
+  header img {
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 0.85rem;
+    max-width: 100%;
+    width: 180px;
+  }
+
+  .sidebar-links {
+    line-height: 1.7;
+    margin: 0;
   }
 
   section {
-    width: calc(100% - 300px);
-    max-width: none;
+    flex: 1 1 480px;
+    margin: 0;
+    min-width: 0;
+    padding: 0 0 2.5rem;
+  }
+
+  section > h2:first-child {
+    line-height: 1.25;
+    margin: 0 0 0.75rem;
   }
 
   footer {
-    width: 260px;
+    flex: 1 1 100%;
+    margin-top: 0.5rem;
+    text-align: center;
   }
 }
 
 @media print, screen and (min-width: 1200px) {
   body {
-    padding: 24px 48px;
+    padding: 28px 40px;
   }
 
   .wrapper {
-    max-width: 1600px;
+    column-gap: 3rem;
+    max-width: 1360px;
+  }
+
+  header {
+    flex-basis: 220px;
   }
 }
 
@@ -150,6 +233,45 @@
 }
 
 @media print, screen and (max-width: 960px) {
+  body {
+    padding: 16px;
+  }
+
+  header {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  header h1 {
+    margin-bottom: 0.75rem;
+  }
+
+  header img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 0.75rem;
+    max-width: 140px;
+  }
+
+  .sidebar-links {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  section {
+    border: none;
+    margin-top: 0.5rem;
+    padding: 0 0 1.5rem;
+  }
+
+  section > h2:first-child {
+    margin-top: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+
   [data-theme="dark"] section {
     border-color: #30363d;
   }

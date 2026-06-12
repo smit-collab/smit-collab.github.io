@@ -1,13 +1,8 @@
 ## About
 
 <p class="section-intro">
-Data scientist with an MS in Data Science from UAB. I build analytics dashboards, machine learning models, and interactive apps — from exploratory analysis to deployed Streamlit tools. Open to data science, analytics, and data engineering roles.
+Senior Data Analyst/Engineer with a B.E. in Computer Engineering from Sinhgad Institute of Technology (SIT) and an MS in Data Science from the University of Alabama at Birmingham (UAB). Curious about technology and passionate about building impactful software and data-driven products, from scalable ETL pipelines and predictive models to interactive dashboards.
 </p>
-
-<div class="skills-block">
-  <p><strong>Languages &amp; tools:</strong> Python, SQL, pandas, scikit-learn, Tableau, Streamlit, Jupyter</p>
-  <p><strong>Focus areas:</strong> Predictive modeling, visualization, clustering, NLP, anomaly detection</p>
-</div>
 
 <div class="featured-section">
   <div class="featured-header">
@@ -191,14 +186,4 @@ Data scientist with an MS in Data Science from UAB. I build analytics dashboards
   </div>
 </div>
 
-</div>
-
-<div class="contact-block">
-  <p><strong>Get in touch</strong></p>
-  <p>
-    <a href="https://github.com/smit-collab">GitHub</a> ·
-    <a href="https://public.tableau.com/profile/smit106059">Tableau</a> ·
-    <a href="https://codepen.io/smit10">CodePen</a>
-  </p>
-  <p><em>Upload your resume as <code>pdf/resume.pdf</code> and add a link here when ready.</em></p>
 </div>
