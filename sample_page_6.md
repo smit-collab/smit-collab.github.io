@@ -1,31 +1,49 @@
-### Project Description:
-In this project, I have analyzed the Uber Pickups in New York City. The dataset is obtained from the kaggle. New York City has five boroughs: Brooklyn, Queens, Manhattan, Bronx, and Staten Island. I have applied K means clustering algorithm to understand the trips taken on uber in New York City.
+## Uber NYC Pickup Analysis
 
-### Images
+Analyzed 829,275 Uber pickup records across New York City's five boroughs using **K-Means clustering** to identify high-demand ride hubs and understand temporal pickup patterns.
 
-### 1. There are 4 columns in the data and 829,275 observations. Only a few observations are shown here.
-![](images/ut_pic2.png)<br/>
+**Tools:** Python, K-Means, pandas, seaborn, geospatial visualization  
+**Repo:** [GitHub](https://github.com/smit-collab/Data-analysis-for-Uber-trips)
 
+---
 
-### 2. All seven centroids are plotted on the map which can act as a hub for the new requested uber rides.
-![](images/ut_pic1.png)<br/>
+## Key Visualizations
 
+### Dataset overview
+![](images/ut_pic2.png)
 
-### 3. Elbow method is used to find the optimal value of k by fitting the model with a range of values for K
-![](images/ut_pic3.png)<br/>
+Four columns and 829K+ observations covering pickup locations across NYC boroughs.
 
-### 4. Analyzing the data by weekday and Frequency.
-![](images/ut_pic4.png)<br/>
+### Cluster centroids on map
+![](images/ut_pic1.png)
 
-### 5. Analyzing hour and day together using seaborn chart.
-![](images/ut_pic5.png)<br/>
+Seven centroids plotted as potential hub locations for new ride requests.
 
+### Elbow method for optimal K
+![](images/ut_pic3.png)
 
+Used the elbow method to determine the optimal number of clusters.
 
+### Weekday and frequency analysis
+![](images/ut_pic4.png)
 
+Pickup frequency patterns broken down by day of the week.
 
-For more details see [Analysis of Uber trips](https://github.com/smit-collab/Data-analysis-for-Uber-trips).
+### Hour and day heatmap
+![](images/ut_pic5.png)
 
+Combined hour-of-day and day-of-week analysis using seaborn.
 
+---
 
+## Key Results
 
+- Identified 7 geographic clusters representing high-demand pickup zones
+- Revealed weekday vs. weekend demand differences
+- Mapped hourly pickup intensity to inform fleet positioning
+
+---
+
+## Links
+
+- [GitHub repository](https://github.com/smit-collab/Data-analysis-for-Uber-trips)

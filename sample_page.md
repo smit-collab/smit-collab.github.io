@@ -1,33 +1,34 @@
-## Detail Information about the Project
+## Stock Market Analysis
 
-**Project description:** Stock-Market-Analysis project was developed to perform data analysis on the historical data of the publicly listed companies on the data provided by yahoo finance.
-Both fundamental and technical analysis was done to understand the trends in the market. Thorough data analysis is done to discover useful information.
-For my case study, I chose big tech companies that are publicly listed: google, ford, apple, Microsoft.
+Analyzed historical stock data from Yahoo Finance for publicly listed tech companies — Google, Ford, Apple, and Microsoft. Combined fundamental and technical analysis to uncover price trends, trading volume patterns, and return relationships.
 
-### 1. Open price of all the stocks
+**Tools:** Python, pandas, matplotlib, Yahoo Finance data  
+**Repo:** [GitHub](https://github.com/smit-collab/Stock-Market-Analysis)
 
-<img src="images/sp_pic_2.png?raw=true"/>
+---
 
-### 2. Volume of stocks traded on each day
+## Key Visualizations
 
-<img src="images/sp_pic_3.png?raw=true"/>
+### Open price of all stocks
+<img src="images/sp_pic_2.png"/>
 
-### 3. Moving average of all three stocks.
+### Volume of stocks traded per day
+<img src="images/sp_pic_3.png"/>
 
-<img src="images/sp_pic_4.png?raw=true"/>
+### Moving averages
+<img src="images/sp_pic_4.png"/>
 
-### 4. Using scatter plot to check the relationships between the stocks. 
+### Stock relationships (scatter plot)
+<img src="images/sp_pic_5.png"/>
 
-<img src="images/sp_pic_5.png?raw=true"/>
+### Cumulative returns
+<img src="images/sp_pic_6.png"/>
 
-### 5. Calculating the Cumulative returns.
+### Comparing returns across stocks
+<img src="images/sp_pic_7.png"/>
 
-<img src="images/sp_pic_6.png?raw=true"/>
+---
 
-### 6. Comparing the returns of three stocks together.
+## Links
 
-<img src="images/sp_pic_7.png?raw=true"/>
-
-
-
-For more details see [Stock Market Analysis](https://github.com/smit-collab/Stock-Market-Analysis).
+- [GitHub repository](https://github.com/smit-collab/Stock-Market-Analysis)

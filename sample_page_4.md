@@ -1,24 +1,30 @@
-## Detail Information about the Project
+## Memory Card Matching Game
 
-### Project description: 
+Built an interactive memory card game during the **Udacity Front-End Web Developer Nanodegree**. Players match pairs of cards in the fewest moves and shortest time to earn a higher star rating.
 
- Main objective is to match all cards in less steps and to complete the game in less time. This was a fun Project that I devloped During Udacity Front-End Web Developer Nanodegree. 
+**Tools:** HTML, CSS, JavaScript  
+**Play live:** [CodePen](https://codepen.io/smit10/project/full/Xbqmpa)  
+**Repo:** [GitHub](https://github.com/smit-collab/Card-matching-game)
 
+---
 
-### Steps to Play 
-• The goal is to match all the cards together and win the game.    
-• Open the index.html . Then the game can be started by clicking on two cards, if they match, then look for another pair of cards or else try again as cards are arranged randomly on the grid with the symbol face down.    
-• The star rating depends on the number of moves. The game ends once all cards have been correctly matched. The player could restart   the game at any time by clicking on the restart icon.    
-• Congratulations, you win! An alert window appears tell you your score, time, and moves it took to complete the game. If there is            an issue with a single card randomly paired, just hit the restart button on the top right corner of the game.
-• On the Alert window, you can hit 'Go Again!' to play the game again, keep playing till you get the best score.
-The project was developed using HTML, CSS, JS.
+## How to Play
 
- 
+1. Click two cards to flip them — if they match, they stay open
+2. If they don't match, try again (cards are shuffled randomly)
+3. Star rating depends on the number of moves
+4. Game ends when all pairs are matched — an alert shows your score, time, and moves
+5. Hit **Restart** anytime, or **Go Again!** after winning
 
+---
+
+## Demo
 
 ![](images/game.gif)
 
+---
 
-Below is the link for codepen.
+## Links
 
-[Click to play the game](https://codepen.io/smit10/project/full/Xbqmpa).
+- [Play on CodePen](https://codepen.io/smit10/project/full/Xbqmpa)
+- [GitHub repository](https://github.com/smit-collab/Card-matching-game)

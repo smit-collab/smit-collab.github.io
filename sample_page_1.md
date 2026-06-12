@@ -1,40 +1,40 @@
-## Detail Information about the Project
+## Foreign Direct Investment in India
 
-**Project description:** Foreign direct investment in a business by an investor from another country for which the foreign investor has control over the company purchased. in India is a major monetary source for economic development in India. Foreign companies invest directly in many sectors to take benefits of cheaper wages and changing business environment of India.
+Built two **Tableau dashboards** analyzing 17 years of sector-wise FDI data in India (2000–2017). Tracked how foreign investment shifted across sectors and over time, including forecasts for the following year.
 
-The dataset contains Foreign direct investment in India for the last 17 years from 2000-01 to 2016-17. It contains sector and Financial year-wise data of FDI in India. I have made a total of two dashboards. The main reason to analyze the data was to observe how the FDI has changed over many years. We can easily observe the change in FDI by observing the step chart that FDI has changed a lot after Narendra Modi's arrival.
+**Tools:** Tableau, data visualization, time-series forecasting  
+**Live dashboards:** [Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1) · [Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)  
+**Repo:** [GitHub](https://github.com/smit-collab/Tableau-Visualizations)
 
-You can view final version of Foreign direct investment dashboards by clicking on link below:<br/>
-[Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1)<br/>
-[Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)
+---
 
+## Key Visualizations
 
-### 1. Maximum FDI.
+### Maximum FDI
+<img src="images/fdi_pic1.png"/>
 
-<img src="images/fdi_pic1.png?raw=true"/>
+### Minimum FDI
+<img src="images/fdi_pic2.png"/>
 
-### 2. Minimum FDI.
+### FDI over the years
+<img src="images/fdi_pic3.png"/>
 
-<img src="images/fdi_pic2.png?raw=true"/>
+### Highest growth FDI sectors
+<img src="images/fdi_pic4.png"/>
 
-### 3. FDI over the years.
+### Variation of FDI across sectors
+<img src="images/fdi_pic5.png"/>
 
-<img src="images/fdi_pic3.png?raw=true"/>
+### Proportion of FDI
+<img src="images/fdi_pic6.png"/>
 
-### 4. Highest Growth FDI Sectors. 
+### Forecast for next year
+<img src="images/fdi_pic7.png"/>
 
-<img src="images/fdi_pic4.png?raw=true"/>
+---
 
-### 5. Variation of FDI in sectors.
+## Links
 
-<img src="images/fdi_pic5.png?raw=true"/>
-
-### 6. Proportion of FDI.
-
-<img src="images/fdi_pic6.png?raw=true"/>
-
-### 7. Forecast for next year.
-
-<img src="images/fdi_pic7.png?raw=true"/>
-
-For more details see [Foreign direct investment](https://github.com/smit-collab/Tableau-Visualizations).
+- [Tableau Dashboard 1](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard1/Dashboard1)
+- [Tableau Dashboard 2](https://public.tableau.com/profile/smit106059#!/vizhome/ForeigndirectinvestmentDashboard2/Dashboard2)
+- [GitHub repository](https://github.com/smit-collab/Tableau-Visualizations)

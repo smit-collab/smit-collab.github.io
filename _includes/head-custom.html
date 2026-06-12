@@ -1,0 +1,417 @@
+<script>
+  (function () {
+    /* Default is light; only apply dark if explicitly saved */
+    if (localStorage.getItem("portfolio-theme") === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("portfolio-theme", "light");
+    }
+  })();
+</script>
+
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<style>
+  :root {
+    --text-muted: #555;
+    --text-heading: #333;
+    --surface: #fff;
+    --surface-alt: #fafbfc;
+    --border: #e8e8e8;
+    --border-light: #f0f0f0;
+    --border-subtle: #edf2f7;
+    --accent: #2c7bb6;
+    --tag-bg: #f4f7fa;
+    --tag-border: #e2e8f0;
+    --tag-text: #4a5568;
+    --hint: #888;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --contact-bg: #f8fafc;
+    --contact-border: #e2e8f0;
+    --btn-bg: #fff;
+    --btn-border: #d0d7de;
+    --btn-hover-bg: #f4f7fa;
+    --scrollbar: #cbd5e0;
+  }
+
+  [data-theme="dark"] {
+    --text-muted: #8b949e;
+    --text-heading: #e6edf3;
+    --surface: #161b22;
+    --surface-alt: #1a2332;
+    --border: #30363d;
+    --border-light: #21262d;
+    --border-subtle: #30363d;
+    --accent: #58a6ff;
+    --tag-bg: #21262d;
+    --tag-border: #30363d;
+    --tag-text: #b0bac5;
+    --hint: #8b949e;
+    --shadow: rgba(0, 0, 0, 0.35);
+    --contact-bg: #161b22;
+    --contact-border: #30363d;
+    --btn-bg: #21262d;
+    --btn-border: #30363d;
+    --btn-hover-bg: #30363d;
+    --scrollbar: #484f58;
+  }
+
+  .section-intro {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 0.25rem;
+  }
+
+  .skills-block {
+    background: var(--surface-alt);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    margin: 1rem 0 2rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .skills-block p {
+    margin: 0.35rem 0;
+    line-height: 1.5;
+  }
+
+  .section-heading {
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+    color: var(--text-heading);
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.75rem;
+    margin: 1rem 0 0.5rem;
+  }
+
+  .project-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 8px 24px var(--shadow);
+    transform: translateY(-3px);
+  }
+
+  .project-card a.thumb-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .project-card img {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .project-card-body {
+    padding: 1rem 1.15rem 1.15rem;
+  }
+
+  .project-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .project-card h3 a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .project-card h3 a:hover {
+    text-decoration: underline;
+  }
+
+  .project-card p {
+    margin: 0 0 0.75rem;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0 0 0.75rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tag-list li {
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    border-radius: 999px;
+    color: var(--tag-text);
+    font-size: 0.72rem;
+    padding: 0.15rem 0.55rem;
+  }
+
+  .project-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .project-link:hover {
+    text-decoration: underline;
+  }
+
+  .contact-block {
+    background: var(--contact-bg);
+    border: 1px solid var(--contact-border);
+    border-radius: 8px;
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+  }
+
+  .contact-block p {
+    margin: 0.4rem 0;
+    line-height: 1.5;
+  }
+
+  .page-content img {
+    border-radius: 6px;
+    margin: 0.5rem 0;
+    max-width: 100%;
+  }
+
+  hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .featured-section {
+    margin: 0 0 2rem;
+  }
+
+  .featured-header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  }
+
+  .featured-header h2 {
+    border-bottom: 2px solid var(--accent);
+    color: var(--text-heading);
+    flex: 1 1 auto;
+    margin: 0;
+    min-width: 200px;
+    padding-bottom: 0.5rem;
+  }
+
+  .featured-controls {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .featured-hint {
+    color: var(--hint);
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .featured-btn {
+    background: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    border-radius: 6px;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 1rem;
+    height: 32px;
+    line-height: 1;
+    width: 32px;
+  }
+
+  .featured-btn:hover {
+    background: var(--btn-hover-bg);
+    border-color: var(--accent);
+  }
+
+  .featured-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 0.25rem 0.25rem 1rem;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .featured-track::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .featured-track::-webkit-scrollbar-thumb {
+    background: var(--scrollbar);
+    border-radius: 999px;
+  }
+
+  .featured-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    flex: 0 0 340px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .featured-card:hover {
+    box-shadow: 0 8px 24px var(--shadow);
+    transform: translateY(-2px);
+  }
+
+  .featured-card img {
+    border-bottom: 1px solid var(--border-light);
+    display: block;
+    height: 190px;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .featured-card-body {
+    padding: 1rem 1.15rem 1.15rem;
+  }
+
+  .featured-card h3 {
+    font-size: 1.05rem;
+    line-height: 1.35;
+    margin: 0 0 0.4rem;
+  }
+
+  .featured-card h3 a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .featured-card h3 a:hover {
+    text-decoration: underline;
+  }
+
+  .featured-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    margin: 0 0 0.6rem;
+  }
+
+  .featured-card .tag-list {
+    margin-bottom: 0.6rem;
+  }
+
+  @media print, screen and (max-width: 960px) {
+    .featured-controls {
+      display: none;
+    }
+
+    .featured-track {
+      flex-direction: column;
+      gap: 1.25rem;
+      overflow-x: visible;
+      overflow-y: visible;
+      padding: 0;
+      scroll-snap-type: none;
+    }
+
+    .featured-card {
+      flex: 1 1 auto;
+      width: 100%;
+    }
+
+    .featured-card:hover {
+      transform: none;
+    }
+
+    .project-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .project-card img {
+      height: auto;
+      max-height: 220px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    /* Theme toggle — top right corner */
+    var root = document.documentElement;
+    var toggle = document.createElement("button");
+    toggle.className = "theme-toggle";
+    toggle.type = "button";
+    toggle.setAttribute("aria-label", "Toggle dark mode");
+
+    function updateToggleLabel() {
+      var isDark = root.getAttribute("data-theme") === "dark";
+      toggle.innerHTML =
+        '<span class="theme-toggle-icon">' + (isDark ? "☀️" : "🌙") + "</span>" +
+        "<span>" + (isDark ? "Light" : "Dark") + "</span>";
+    }
+
+    updateToggleLabel();
+
+    toggle.addEventListener("click", function () {
+      var isDark = root.getAttribute("data-theme") === "dark";
+      if (isDark) {
+        root.removeAttribute("data-theme");
+        localStorage.setItem("portfolio-theme", "light");
+      } else {
+        root.setAttribute("data-theme", "dark");
+        localStorage.setItem("portfolio-theme", "dark");
+      }
+      updateToggleLabel();
+    });
+
+    document.body.appendChild(toggle);
+
+    /* Featured carousel */
+    var track = document.getElementById("featured-track");
+    if (!track) return;
+
+    var prev = document.getElementById("featured-prev");
+    var next = document.getElementById("featured-next");
+    var scrollAmount = 360;
+
+    function isMobile() {
+      return window.matchMedia("(max-width: 960px)").matches;
+    }
+
+    if (prev) {
+      prev.addEventListener("click", function () {
+        if (isMobile()) return;
+        track.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+      });
+    }
+
+    if (next) {
+      next.addEventListener("click", function () {
+        if (isMobile()) return;
+        track.scrollBy({ left: scrollAmount, behavior: "smooth" });
+      });
+    }
+  });
+</script>

@@ -1,51 +1,47 @@
-### Project Description:
-The Project shows the analysis of how travelers expressed their feelings on Twitter about different US Airlines. The US Airlines analyzed are US Airways United , American , Southwest, Delta, Virgin America. I completed this project as a part of coursera online course.
+## US Airlines Sentiment Analysis
 
-### Images
+Built an interactive Streamlit app to analyze how travelers expressed sentiment about six major US airlines on Twitter: US Airways, United, American, Southwest, Delta, and Virgin America.
 
-I have attached below the screenshots and video of the streamlit dashboard.
+**Tools:** Python, Streamlit, NLP, data visualization  
+**Repo:** [GitHub](https://github.com/smit-collab/Sentiment-analysis-of-tweets-about-US-Airlines)
 
+---
 
-
+## Dashboard Demo
 
 ![](images/se_streamlit-app.gif)
 
-• The above video shows the streamlit dashboard in action.
+The Streamlit dashboard lets users filter by sentiment, explore tweets by time and location, and view word clouds.
 
+---
 
-![](images/se_pic1.png)<br/>
-• The above chart shows the selected sentiment (positive,negative, neutral) sentiment using historgram. We can clearly see that there are 9178 negative tweets , 3099 neutral tweets and 2363 positive tweets. The radio buttons on left side allows user to select random positive , neutral or negative tweets.
-<br>
+## Key Visualizations
 
+### Sentiment distribution
+![](images/se_pic1.png)
 
-![](images/se_pic2.png)<br/>
-• The above pie chart clearly shows the percentage of different types of tweets.
+Histogram of positive, negative, and neutral tweets. The dataset contains 9,178 negative, 3,099 neutral, and 2,363 positive tweets. Radio buttons let users browse random tweets by sentiment.
 
+### Sentiment breakdown
+![](images/se_pic2.png)
 
+Pie chart showing the percentage of each sentiment type.
 
-![](images/se_pic3.png)<br/>
-• The above chart shows that user can select hour of the day to see number of tweets by locations on the map. The slider can be used to control the hour of day.
+### Tweets by location and hour
+![](images/se_pic3.png)
 
+Map view of tweet volume by location, with a slider to filter by hour of day.
 
+### Word cloud
+![](images/se_pic4.png)
 
-![](images/se_pic4.png)<br/>
+Word cloud for neutral sentiment tweets.
 
-• The above chart shows word cloud for neutral sentiment.
+---
 
-
-    
 ## References
 
-    Wikipedia
-    Datacamp
-    Coursera
-    A lot of googling to figure out how to do stuff.    
-
-
-
-
-For more details see [Sentiment-analysis-of-tweets-about-US-Airlines](https://github.com/smit-collab/Sentiment-analysis-of-tweets-about-US-Airlines).
-
-
-
-
+- Wikipedia
+- DataCamp
+- Coursera
+- [GitHub repo](https://github.com/smit-collab/Sentiment-analysis-of-tweets-about-US-Airlines)

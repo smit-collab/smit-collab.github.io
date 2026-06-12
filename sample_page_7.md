@@ -1,41 +1,42 @@
-### Project Description:
-In this project, I have I have used two models Linear Regression and Random Forest Regressor to predict the average ratings for the board games. The dataset is obtained from the kaggle. The project can be useful for the board games manufacturer who might want to know what types of games people like and which games got the highest ratings. Aim of the project is to use machine learning algorithms to predict average ratings for the board games.
+## Board Game Review Prediction
 
-### Images
+Predicted average board game ratings using **Linear Regression** and **Random Forest Regressor** on Kaggle board game data. The project helps identify which game features correlate most strongly with player ratings.
 
-### 1. The below chart shows average rating that most of the rating lies around 6. So after calculation we get.
-![](images/bgr_pic_2.png)<br/>
+**Tools:** Python, scikit-learn, pandas, Kaggle dataset  
+**Repo:** [GitHub](https://github.com/smit-collab/Board-games-prediction)
 
-    Standard Deviation :  1.5788299348332662
-    Average :  6.016112849333889
+---
 
+## Key Visualizations
 
-### 2. Correlation Matrix shows some information on correlation coefficients between sets of variables in the data set.
+### Rating distribution
+![](images/bgr_pic_2.png)
 
-From Below chart we can observe some basic things like id has some correlation with average rating. Also average rating and average weight are also correlated. Also min age is correlated with average rating.
+Most ratings cluster around 6.0 (avg: 6.02, std: 1.58), indicating a left-skewed distribution.
 
-Some columns like base type,name,id don't give useful information about the game but are correlated so it will somewhat affect the results of the algorithm.
+### Feature correlation matrix
+![](images/bgr_pic_3.png)
 
-![](images/bgr_pic_3.png)<br/>
+Average rating correlates with average weight and minimum age. Metadata columns like `id` and `name` show correlation but carry little predictive value.
 
+### Model comparison
+![](images/bgr_pic_4.png)
 
-### 3. Two models are used for the prediction of average rating of the board games : Linear Regression and Random Forest Regressor
+Side-by-side comparison of Linear Regression vs. Random Forest predictions.
 
-![](images/bgr_pic_4.png)<br/>
+---
 
+## Key Results
 
-### Key Points
+| Model | MSE |
+|-------|-----|
+| Linear Regression | 2.08 |
+| Random Forest | 1.56 |
 
-• I have used two models Linear Regression and Random Forest Regressor to predict the average ratings for the board games.Using Linear Regression we got MSE 2.08 which is not the best as the data is fairly complex so the linear model won't fit it perfectly.
+Random Forest outperformed Linear Regression, confirming the non-linear relationships in the feature space.
 
-• Using Random Forest Regressor I get MSE value as 1.56 which is better than the linear regression. So non linear model is achiving better result than the linear model. Predictions of some values are shown below :
+---
 
+## Links
 
-
-
-
-For more details see [Board Game Review Prediction](https://github.com/smit-collab/Board-games-prediction).
-
-
-
-
+- [GitHub repository](https://github.com/smit-collab/Board-games-prediction)

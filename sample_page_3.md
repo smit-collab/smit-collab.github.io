@@ -1,37 +1,37 @@
-## Detail Information about the Project
+## Global Superstore Performance
 
-**Project description:** The main reason to analyze the data of global superstore perfomance is to find out if the product made loss or profit in the market.If  it was a profit/loss then in which sector and what was the main reason behind it. Global Super Store is a data set which has a lot of values. Its a customer centric data set , which has the data of all the orders that have been placed through different vendors and markets. 
+Analyzed Global Superstore order data to determine which products, markets, and categories drove profit vs. loss. Built two **Tableau dashboards** covering profitability, shipping, and discount impact.
 
-You can view final version of Global superstore perfomance dashboards by clicking on link below:<br/>
-[Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance)<br/>
-[Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)
+**Tools:** Tableau, business analytics, profitability analysis  
+**Live dashboards:** [Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance) · [Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)  
+**Repo:** [GitHub](https://github.com/smit-collab/Tableau-Visualizations)
 
+---
 
+## Key Visualizations
 
-### 1. Countries making Profit 
+### Countries making profit
+<img src="images/gsp_pic_1e.png"/>
 
-<img src="images/gsp_pic_1e.png?raw=true"/>
+### Profits by year
+<img src="images/gsp_pic_2.png"/>
 
-### 2. Profits By year 
+### Shipping details
+<img src="images/gsp_pic_3.png"/>
 
-<img src="images/gsp_pic_2.png?raw=true"/>
+### Countries with highest discounts
+<img src="images/gsp_pic_4.png"/>
 
-### 3. Shipping Details
+### Top 10 profit-making products
+<img src="images/gsp_pic_5.png"/>
 
-<img src="images/gsp_pic_3.png?raw=true"/>
+### Profits by category
+<img src="images/gsp_pic_6.png"/>
 
-### 4. Countries with more discount
+---
 
-<img src="images/gsp_pic_4.png?raw=true"/>
+## Links
 
-### 5. Top 10 profit making products
-
-<img src="images/gsp_pic_5.png?raw=true"/>
-
-### 6. Profits by category
-
-<img src="images/gsp_pic_6.png?raw=true"/>
-
-
-For more details see [global superstore perfomance Analysis](https://github.com/smit-collab/Tableau-Visualizations).
-
+- [Tableau Dashboard 3](https://public.tableau.com/profile/smit106059#!/vizhome/GlobalPerfomanceDashboard3/GlobalPerfomance)
+- [Tableau Dashboard 4](https://public.tableau.com/profile/smit106059#!/vizhome/ShippingandDiscountdetailsDashboard4/ShippingandDiscount)
+- [GitHub repository](https://github.com/smit-collab/Tableau-Visualizations)
