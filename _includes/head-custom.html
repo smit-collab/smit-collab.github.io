@@ -15,7 +15,9 @@
 <style>
   :root {
     --text-muted: #4a4a4a;
+    --text-body: #4a4a4a;
     --text-heading: #333;
+    --page-bg: #ffffff;
     --surface: #fff;
     --surface-alt: #fafbfc;
     --border: #e8e8e8;
@@ -36,8 +38,10 @@
   }
 
   [data-theme="dark"] {
-    --text-muted: #8b949e;
+    --text-muted: #b0bac5;
+    --text-body: #c9d1d9;
     --text-heading: #e6edf3;
+    --page-bg: #0d1117;
     --surface: #161b22;
     --surface-alt: #1a2332;
     --border: #30363d;
@@ -192,6 +196,44 @@
   .contact-block p {
     margin: 0.4rem 0;
     line-height: 1.5;
+    color: var(--text-body);
+  }
+
+  [data-theme="dark"] body {
+    background-color: var(--page-bg);
+    color: var(--text-body);
+  }
+
+  [data-theme="dark"] section,
+  [data-theme="dark"] section p,
+  [data-theme="dark"] header p,
+  [data-theme="dark"] section li,
+  [data-theme="dark"] section ul,
+  [data-theme="dark"] section ol,
+  [data-theme="dark"] section td,
+  [data-theme="dark"] section dt,
+  [data-theme="dark"] .skills-block,
+  [data-theme="dark"] .skills-block p {
+    color: var(--text-body);
+  }
+
+  [data-theme="dark"] header h1 a {
+    color: var(--text-heading);
+  }
+
+  [data-theme="dark"] header h1 a:hover,
+  [data-theme="dark"] header h1 a:focus {
+    color: var(--accent);
+  }
+
+  [data-theme="dark"] footer p,
+  [data-theme="dark"] footer small,
+  [data-theme="dark"] a small {
+    color: var(--text-muted);
+  }
+
+  [data-theme="dark"] .featured-btn {
+    color: var(--accent);
   }
 
   .page-content img {

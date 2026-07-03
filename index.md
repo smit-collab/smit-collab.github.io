@@ -113,6 +113,16 @@ Senior Data Analyst/Engineer with a B.E. in Computer Engineering from Sinhgad In
   </div>
 </div>
 
+<div class="project-card">
+  <a class="thumb-link" href="/sample_page_11"><img src="images/Airbnb_listing_Complete_Dashboard.png" alt="Airbnb listing analysis dashboard"/></a>
+  <div class="project-card-body">
+    <h3><a href="/sample_page_11">Airbnb Listing Analysis</a></h3>
+    <ul class="tag-list"><li>Tableau</li><li>Geospatial</li><li>Pricing</li></ul>
+    <p>Seattle Airbnb pricing by zip code, bedroom mix, and weekly revenue trends.</p>
+    <a class="project-link" href="/sample_page_11">View project →</a>
+  </div>
+</div>
+
 </div>
 
 <h2 class="section-heading">Machine Learning Projects</h2>

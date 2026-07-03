@@ -3,14 +3,22 @@
 
 /* Typography — readability improvements over Minimal theme defaults */
 body {
-  color: #4a4a4a;
+  color: var(--text-body, #4a4a4a);
   font-size: 16px;
   line-height: 1.6;
 }
 
 section p,
 header p {
-  color: #4a4a4a;
+  color: var(--text-body, #4a4a4a);
+}
+
+section li,
+section ul,
+section ol,
+section td,
+section dt {
+  color: var(--text-body, #4a4a4a);
 }
 
 header {
@@ -163,8 +171,18 @@ footer {
 }
 
 [data-theme="dark"] body {
-  background-color: #0d1117;
-  color: #b0bac5;
+  background-color: var(--page-bg, #0d1117);
+  color: var(--text-body, #c9d1d9);
+}
+
+[data-theme="dark"] section p,
+[data-theme="dark"] header p,
+[data-theme="dark"] section li,
+[data-theme="dark"] section ul,
+[data-theme="dark"] section ol,
+[data-theme="dark"] section td,
+[data-theme="dark"] section dt {
+  color: var(--text-body, #c9d1d9);
 }
 
 [data-theme="dark"] h1,
@@ -173,22 +191,22 @@ footer {
 [data-theme="dark"] h4,
 [data-theme="dark"] h5,
 [data-theme="dark"] h6 {
-  color: #e6edf3;
+  color: var(--text-heading, #e6edf3);
 }
 
 [data-theme="dark"] h2 {
-  color: #c9d1d9;
+  color: #d8dee4;
 }
 
 [data-theme="dark"] h3,
 [data-theme="dark"] h4,
 [data-theme="dark"] h5,
 [data-theme="dark"] h6 {
-  color: #c9d1d9;
+  color: #d0d7de;
 }
 
 [data-theme="dark"] strong {
-  color: #e6edf3;
+  color: var(--text-heading, #e6edf3);
 }
 
 [data-theme="dark"] a {
@@ -197,6 +215,15 @@ footer {
 
 [data-theme="dark"] a:hover,
 [data-theme="dark"] a:focus {
+  color: #79b8ff;
+}
+
+[data-theme="dark"] header h1 a {
+  color: var(--text-heading, #e6edf3);
+}
+
+[data-theme="dark"] header h1 a:hover,
+[data-theme="dark"] header h1 a:focus {
   color: #79b8ff;
 }
 
@@ -217,19 +244,36 @@ footer {
 [data-theme="dark"] th,
 [data-theme="dark"] td {
   border-bottom-color: #30363d;
+  color: var(--text-body, #c9d1d9);
 }
 
 [data-theme="dark"] th {
-  color: #c9d1d9;
+  color: #d0d7de;
 }
 
 [data-theme="dark"] blockquote {
   border-left-color: #30363d;
-  color: #8b949e;
+  color: var(--text-muted, #b0bac5);
 }
 
-[data-theme="dark"] footer p {
-  color: #8b949e;
+[data-theme="dark"] footer p,
+[data-theme="dark"] footer small,
+[data-theme="dark"] a small {
+  color: var(--text-muted, #b0bac5);
+}
+
+[data-theme="dark"] .downloads {
+  background: #161b22;
+  border-color: #30363d;
+}
+
+[data-theme="dark"] .downloads a,
+[data-theme="dark"] .downloads a strong {
+  color: var(--text-body, #c9d1d9);
+}
+
+[data-theme="dark"] .downloads li {
+  border-right-color: #30363d;
 }
 
 @media print, screen and (max-width: 960px) {
