@@ -4,7 +4,6 @@ Built a two-part **Tableau HR analytics suite** for workforce planning: a summar
 
 **Tools:** Tableau, HR analytics, workforce reporting  
 **Live dashboards:** [HR Summary](https://public.tableau.com/app/profile/smit106059/viz/OrganizationHRDashboard/HRSummary) · [HR Details](https://public.tableau.com/app/profile/smit106059/viz/OrganizationHRDetailsDashboard/HRDetails)  
-**Repo:** [GitHub](https://github.com/smit-collab/Tableau-Visualizations)
 
 ---
 
@@ -26,6 +25,5 @@ Searchable employee table with ID, demographics, role, location, salary, hire st
 
 - [Tableau HR Summary](https://public.tableau.com/app/profile/smit106059/viz/OrganizationHRDashboard/HRSummary)
 - [Tableau HR Details](https://public.tableau.com/app/profile/smit106059/viz/OrganizationHRDetailsDashboard/HRDetails)
-- [GitHub repository](https://github.com/smit-collab/Tableau-Visualizations)
 
 Dashboard creation inspired by and based on a YouTube tutorial from the Data With Baraa YouTube channel.

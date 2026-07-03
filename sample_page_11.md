@@ -4,7 +4,6 @@ Explored **Seattle Airbnb listing data** to understand how price, inventory, and
 
 **Tools:** Tableau, geospatial analysis, pricing analytics  
 **Live dashboard:** [Airbnb Listings Dashboard](https://public.tableau.com/views/AirbnbListings_17831001032500/Dashboard1)  
-**Repo:** [GitHub](https://github.com/smit-collab/Tableau-Visualizations)
 
 ---
 
@@ -45,4 +44,3 @@ All five views combined into one interactive dashboard with filters for explorin
 ## Links
 
 - [Tableau dashboard](https://public.tableau.com/views/AirbnbListings_17831001032500/Dashboard1)
-- [GitHub repository](https://github.com/smit-collab/Tableau-Visualizations)

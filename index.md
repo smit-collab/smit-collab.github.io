@@ -27,12 +27,12 @@ Senior Data Analyst/Engineer with a B.E. in Computer Engineering from Sinhgad In
     </div>
 
     <div class="featured-card">
-      <a class="thumb-link" href="/sample_page_10"><img src="images/dummy_thumbnail.jpg" alt="Cloud-based antivirus"/></a>
+      <a class="thumb-link" href="/sample_page_13"><img src="images/Customer-dashboard_pic1.png" alt="Company customer and sales report"/></a>
       <div class="featured-card-body">
-        <h3><a href="/sample_page_10">Bug Defender — Cloud Antivirus</a></h3>
-        <ul class="tag-list"><li>Python</li><li>Cloud</li></ul>
-        <p>Multi-engine cloud antivirus using N-Version programming.</p>
-        <a class="project-link" href="/sample_page_10">View →</a>
+        <h3><a href="/sample_page_13">Company Customer and Sales Report</a></h3>
+        <ul class="tag-list"><li>Tableau</li><li>Sales</li></ul>
+        <p>2023 customer and sales dashboards with YoY KPIs and weekly trends.</p>
+        <a class="project-link" href="/sample_page_13">View →</a>
       </div>
     </div>
 
@@ -130,6 +130,16 @@ Senior Data Analyst/Engineer with a B.E. in Computer Engineering from Sinhgad In
     <ul class="tag-list"><li>Tableau</li><li>HR Analytics</li><li>Workforce</li></ul>
     <p>HR summary and employee details dashboards for headcount, demographics, and compensation.</p>
     <a class="project-link" href="/sample_page_12">View project →</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <a class="thumb-link" href="/sample_page_13"><img src="images/Customer-dashboard_pic1.png" alt="Company customer and sales report"/></a>
+  <div class="project-card-body">
+    <h3><a href="/sample_page_13">Company Customer and Sales Report</a></h3>
+    <ul class="tag-list"><li>Tableau</li><li>Sales</li><li>Customer Analytics</li></ul>
+    <p>2023 customer and sales dashboards with YoY KPIs, subcategory profit, and weekly trends.</p>
+    <a class="project-link" href="/sample_page_13">View project →</a>
   </div>
 </div>
 
