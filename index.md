@@ -123,6 +123,16 @@ Senior Data Analyst/Engineer with a B.E. in Computer Engineering from Sinhgad In
   </div>
 </div>
 
+<div class="project-card">
+  <a class="thumb-link" href="/sample_page_12"><img src="images/organization_dashboard_pic1.png" alt="Organization HR dashboard"/></a>
+  <div class="project-card-body">
+    <h3><a href="/sample_page_12">Organization Dashboard</a></h3>
+    <ul class="tag-list"><li>Tableau</li><li>HR Analytics</li><li>Workforce</li></ul>
+    <p>HR summary and employee details dashboards for headcount, demographics, and compensation.</p>
+    <a class="project-link" href="/sample_page_12">View project →</a>
+  </div>
+</div>
+
 </div>
 
 <h2 class="section-heading">Machine Learning Projects</h2>
